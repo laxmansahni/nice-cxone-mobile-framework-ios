@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0279652ED4666D002065AE /* ProactiveActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279642ED4666D002065AE /* ProactiveActionProvider.swift */; };
+		4B0279672ED46785002065AE /* EventErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279662ED46785002065AE /* EventErrorCode.swift */; };
+		4B0279692ED4679C002065AE /* APIErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279682ED4679C002065AE /* APIErrorCode.swift */; };
+		4B02796E2ED46862002065AE /* MessagePluginSubElementDTOType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02796B2ED46862002065AE /* MessagePluginSubElementDTOType.swift */; };
+		4B02796F2ED46862002065AE /* MessagePluginDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02796A2ED46862002065AE /* MessagePluginDTO.swift */; };
+		4B0279702ED46862002065AE /* PluginMessageDTOType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02796C2ED46862002065AE /* PluginMessageDTOType.swift */; };
+		4B0279742ED468E4002065AE /* ProactiveActionTriggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279712ED468E4002065AE /* ProactiveActionTriggerType.swift */; };
+		4B0279752ED468E4002065AE /* ProactiveActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279722ED468E4002065AE /* ProactiveActionType.swift */; };
+		4B0279772ED4697B002065AE /* TimeInterval+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279762ED4697B002065AE /* TimeInterval+Extensions.swift */; };
+		4B0279792ED46988002065AE /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279782ED46988002065AE /* Dictionary+Extensions.swift */; };
+		4B02797D2ED46A41002065AE /* ClientLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02797A2ED46A41002065AE /* ClientLogManager.swift */; };
+		4B02797E2ED46A41002065AE /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02797B2ED46A41002065AE /* LogManager.swift */; };
+		4B0279802ED46B1B002065AE /* AnyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02797F2ED46B1B002065AE /* AnyValue.swift */; };
+		4B0279822ED46C36002065AE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279812ED46C36002065AE /* APIError.swift */; };
+		4B0279892ED471CF002065AE /* InactivityPopupTextElementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279862ED471CF002065AE /* InactivityPopupTextElementDTO.swift */; };
+		4B02798A2ED471CF002065AE /* InactivityPopupButtonElementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279832ED471CF002065AE /* InactivityPopupButtonElementDTO.swift */; };
+		4B02798B2ED471CF002065AE /* InactivityPopupCountdownElementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279842ED471CF002065AE /* InactivityPopupCountdownElementDTO.swift */; };
+		4B02798C2ED471CF002065AE /* InactivityPopupTitleElementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279872ED471CF002065AE /* InactivityPopupTitleElementDTO.swift */; };
+		4B02798D2ED471CF002065AE /* InactivityPopupPluginDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279852ED471CF002065AE /* InactivityPopupPluginDTO.swift */; };
+		4B02798F2ED47225002065AE /* MessagePostbackDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02798E2ED47225002065AE /* MessagePostbackDTO.swift */; };
+		4B0279912ED4807B002065AE /* InactivityPopupMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279902ED4807B002065AE /* InactivityPopupMapper.swift */; };
+		4B0279932ED4812B002065AE /* InactivityPopupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279922ED4812B002065AE /* InactivityPopupButton.swift */; };
+		4B0279952ED4813A002065AE /* InactivityPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279942ED4813A002065AE /* InactivityPopup.swift */; };
+		4B0279972ED483BC002065AE /* ProactiveActionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279962ED483BC002065AE /* ProactiveActionService.swift */; };
+		4B0279992ED48A12002065AE /* MessageSeenChangedDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0279982ED48A12002065AE /* MessageSeenChangedDTO.swift */; };
 		4B3A99DF2EB9F72100E18CDF /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A99DC2EB9F72100E18CDF /* KeychainSwiftAccessOptions.swift */; };
 		4B3A99E02EB9F72100E18CDF /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A99DB2EB9F72100E18CDF /* KeychainSwift.swift */; };
 		4B3A99E12EB9F72100E18CDF /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A99DD2EB9F72100E18CDF /* TegKeychainConstants.swift */; };
@@ -74,7 +99,6 @@
 		4B3A9B5B2EB9F79D00E18CDF /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9AFA2EB9F79D00E18CDF /* Agent.swift */; };
 		4B3A9B5C2EB9F79D00E18CDF /* SetContactCustomFieldsEventDataDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A602EB9F79D00E18CDF /* SetContactCustomFieldsEventDataDTO.swift */; };
 		4B3A9B5D2EB9F79D00E18CDF /* ConnectionContextImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9AD02EB9F79D00E18CDF /* ConnectionContextImpl.swift */; };
-		4B3A9B5E2EB9F79D00E18CDF /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A3B2EB9F79D00E18CDF /* LogManager.swift */; };
 		4B3A9B5F2EB9F79D00E18CDF /* VisitorDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9ACB2EB9F79D00E18CDF /* VisitorDTO.swift */; };
 		4B3A9B602EB9F79D00E18CDF /* ReceivedThreadDataDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9AB32EB9F79D00E18CDF /* ReceivedThreadDataDTO.swift */; };
 		4B3A9B612EB9F79D00E18CDF /* CallToActionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A722EB9F79D00E18CDF /* CallToActionDTO.swift */; };
@@ -121,7 +145,6 @@
 		4B3A9B8A2EB9F79D00E18CDF /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9B0F2EB9F79D00E18CDF /* URLSessionProtocol.swift */; };
 		4B3A9B8B2EB9F79D00E18CDF /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A3A2EB9F79D00E18CDF /* DependencyManager.swift */; };
 		4B3A9B8C2EB9F79D00E18CDF /* MessageQuickReplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9AEF2EB9F79D00E18CDF /* MessageQuickReplies.swift */; };
-		4B3A9B8D2EB9F79D00E18CDF /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A1B2EB9F79D00E18CDF /* ErrorCode.swift */; };
 		4B3A9B8E2EB9F79D00E18CDF /* OutboundMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9AF52EB9F79D00E18CDF /* OutboundMessage.swift */; };
 		4B3A9B8F2EB9F79D00E18CDF /* EventDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9A7E2EB9F79D00E18CDF /* EventDTO.swift */; };
 		4B3A9B902EB9F79D00E18CDF /* URLSessionWebSocketTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9B102EB9F79D00E18CDF /* URLSessionWebSocketTaskProtocol.swift */; };
@@ -258,6 +281,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0279642ED4666D002065AE /* ProactiveActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveActionProvider.swift; sourceTree = "<group>"; };
+		4B0279662ED46785002065AE /* EventErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventErrorCode.swift; sourceTree = "<group>"; };
+		4B0279682ED4679C002065AE /* APIErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorCode.swift; sourceTree = "<group>"; };
+		4B02796A2ED46862002065AE /* MessagePluginDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePluginDTO.swift; sourceTree = "<group>"; };
+		4B02796B2ED46862002065AE /* MessagePluginSubElementDTOType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePluginSubElementDTOType.swift; sourceTree = "<group>"; };
+		4B02796C2ED46862002065AE /* PluginMessageDTOType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginMessageDTOType.swift; sourceTree = "<group>"; };
+		4B0279712ED468E4002065AE /* ProactiveActionTriggerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveActionTriggerType.swift; sourceTree = "<group>"; };
+		4B0279722ED468E4002065AE /* ProactiveActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveActionType.swift; sourceTree = "<group>"; };
+		4B0279762ED4697B002065AE /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
+		4B0279782ED46988002065AE /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		4B02797A2ED46A41002065AE /* ClientLogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientLogManager.swift; sourceTree = "<group>"; };
+		4B02797B2ED46A41002065AE /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		4B02797F2ED46B1B002065AE /* AnyValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyValue.swift; sourceTree = "<group>"; };
+		4B0279812ED46C36002065AE /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		4B0279832ED471CF002065AE /* InactivityPopupButtonElementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupButtonElementDTO.swift; sourceTree = "<group>"; };
+		4B0279842ED471CF002065AE /* InactivityPopupCountdownElementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupCountdownElementDTO.swift; sourceTree = "<group>"; };
+		4B0279852ED471CF002065AE /* InactivityPopupPluginDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupPluginDTO.swift; sourceTree = "<group>"; };
+		4B0279862ED471CF002065AE /* InactivityPopupTextElementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupTextElementDTO.swift; sourceTree = "<group>"; };
+		4B0279872ED471CF002065AE /* InactivityPopupTitleElementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupTitleElementDTO.swift; sourceTree = "<group>"; };
+		4B02798E2ED47225002065AE /* MessagePostbackDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePostbackDTO.swift; sourceTree = "<group>"; };
+		4B0279902ED4807B002065AE /* InactivityPopupMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupMapper.swift; sourceTree = "<group>"; };
+		4B0279922ED4812B002065AE /* InactivityPopupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopupButton.swift; sourceTree = "<group>"; };
+		4B0279942ED4813A002065AE /* InactivityPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityPopup.swift; sourceTree = "<group>"; };
+		4B0279962ED483BC002065AE /* ProactiveActionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveActionService.swift; sourceTree = "<group>"; };
+		4B0279982ED48A12002065AE /* MessageSeenChangedDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSeenChangedDTO.swift; sourceTree = "<group>"; };
 		4B0BAE202EB8EE330027E9B4 /* CXoneChatBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CXoneChatBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3A99DB2EB9F72100E18CDF /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
 		4B3A99DC2EB9F72100E18CDF /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
@@ -295,7 +343,6 @@
 		4B3A9A172EB9F79D00E18CDF /* MessageSubElementDTOType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSubElementDTOType.swift; sourceTree = "<group>"; };
 		4B3A9A192EB9F79D00E18CDF /* ContactStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStatus.swift; sourceTree = "<group>"; };
 		4B3A9A1A2EB9F79D00E18CDF /* ElementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementType.swift; sourceTree = "<group>"; };
-		4B3A9A1B2EB9F79D00E18CDF /* ErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
 		4B3A9A1C2EB9F79D00E18CDF /* EventActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventActionType.swift; sourceTree = "<group>"; };
 		4B3A9A1D2EB9F79D00E18CDF /* EventDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDataType.swift; sourceTree = "<group>"; };
 		4B3A9A1E2EB9F79D00E18CDF /* EventObjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventObjectType.swift; sourceTree = "<group>"; };
@@ -322,7 +369,6 @@
 		4B3A9A372EB9F79D00E18CDF /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
 		4B3A9A382EB9F79D00E18CDF /* URLSessionProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionProtocol+Extensions.swift"; sourceTree = "<group>"; };
 		4B3A9A3A2EB9F79D00E18CDF /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
-		4B3A9A3B2EB9F79D00E18CDF /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		4B3A9A3C2EB9F79D00E18CDF /* SocketDelegateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketDelegateManager.swift; sourceTree = "<group>"; };
 		4B3A9A3D2EB9F79D00E18CDF /* WelcomeMessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageManager.swift; sourceTree = "<group>"; };
 		4B3A9A3F2EB9F79D00E18CDF /* AnalyticsEventDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEventDTO.swift; sourceTree = "<group>"; };
@@ -528,6 +574,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B02796D2ED46862002065AE /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B02796A2ED46862002065AE /* MessagePluginDTO.swift */,
+				4B02796B2ED46862002065AE /* MessagePluginSubElementDTOType.swift */,
+				4B02796C2ED46862002065AE /* PluginMessageDTOType.swift */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		4B0279732ED468E4002065AE /* ProactiveAction */ = {
+			isa = PBXGroup;
+			children = (
+				4B0279712ED468E4002065AE /* ProactiveActionTriggerType.swift */,
+				4B0279722ED468E4002065AE /* ProactiveActionType.swift */,
+			);
+			path = ProactiveAction;
+			sourceTree = "<group>";
+		};
+		4B02797C2ED46A41002065AE /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				4B02797A2ED46A41002065AE /* ClientLogManager.swift */,
+				4B02797B2ED46A41002065AE /* LogManager.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		4B0279882ED471CF002065AE /* InactivityPopup */ = {
+			isa = PBXGroup;
+			children = (
+				4B0279832ED471CF002065AE /* InactivityPopupButtonElementDTO.swift */,
+				4B0279842ED471CF002065AE /* InactivityPopupCountdownElementDTO.swift */,
+				4B0279852ED471CF002065AE /* InactivityPopupPluginDTO.swift */,
+				4B0279862ED471CF002065AE /* InactivityPopupTextElementDTO.swift */,
+				4B0279872ED471CF002065AE /* InactivityPopupTitleElementDTO.swift */,
+			);
+			path = InactivityPopup;
+			sourceTree = "<group>";
+		};
 		4B0BAE162EB8EE330027E9B4 = {
 			isa = PBXGroup;
 			children = (
@@ -610,6 +696,7 @@
 				4B3A9A0F2EB9F79D00E18CDF /* CustomerCustomFieldsProvider.swift */,
 				4B3A9A102EB9F79D00E18CDF /* CustomerProvider.swift */,
 				4B3A9A112EB9F79D00E18CDF /* CXoneChatDelegate.swift */,
+				4B0279642ED4666D002065AE /* ProactiveActionProvider.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -629,6 +716,7 @@
 				4B3A9A152EB9F79D00E18CDF /* MessageContentDTOType.swift */,
 				4B3A9A162EB9F79D00E18CDF /* MessageDirectionDTOType.swift */,
 				4B3A9A172EB9F79D00E18CDF /* MessageSubElementDTOType.swift */,
+				4B02796D2ED46862002065AE /* Plugin */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -639,13 +727,14 @@
 				4B3A9A182EB9F79D00E18CDF /* Message */,
 				4B3A9A192EB9F79D00E18CDF /* ContactStatus.swift */,
 				4B3A9A1A2EB9F79D00E18CDF /* ElementType.swift */,
-				4B3A9A1B2EB9F79D00E18CDF /* ErrorCode.swift */,
 				4B3A9A1C2EB9F79D00E18CDF /* EventActionType.swift */,
 				4B3A9A1D2EB9F79D00E18CDF /* EventDataType.swift */,
 				4B3A9A1E2EB9F79D00E18CDF /* EventObjectType.swift */,
 				4B3A9A1F2EB9F79D00E18CDF /* EventType.swift */,
 				4B3A9A202EB9F79D00E18CDF /* Position.swift */,
 				4B3A9A212EB9F79D00E18CDF /* TemplateIdType.swift */,
+				4B0279662ED46785002065AE /* EventErrorCode.swift */,
+				4B0279682ED4679C002065AE /* APIErrorCode.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -667,6 +756,7 @@
 				4B3A9A272EB9F79D00E18CDF /* Message */,
 				4B3A9A282EB9F79D00E18CDF /* ActionType.swift */,
 				4B3A9A292EB9F79D00E18CDF /* CustomFieldType.swift */,
+				4B0279732ED468E4002065AE /* ProactiveAction */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -687,11 +777,13 @@
 				4B3A9A2D2EB9F79D00E18CDF /* Array+Extensions.swift */,
 				4B3A9A2E2EB9F79D00E18CDF /* Codable+Extensions.swift */,
 				4B3A9A2F2EB9F79D00E18CDF /* Data+Extensions.swift */,
+				4B0279782ED46988002065AE /* Dictionary+Extensions.swift */,
 				4B3A9A302EB9F79D00E18CDF /* Error+Extensions.swift */,
 				4B3A9A312EB9F79D00E18CDF /* HTTPURLResponse+Extensions.swift */,
 				4B3A9A322EB9F79D00E18CDF /* Sequence+Extensions.swift */,
 				4B3A9A332EB9F79D00E18CDF /* String+Extensions.swift */,
 				4B3A9A342EB9F79D00E18CDF /* Task+Extensions.swift */,
+				4B0279762ED4697B002065AE /* TimeInterval+Extensions.swift */,
 				4B3A9A352EB9F79D00E18CDF /* URL+Builder.swift */,
 				4B3A9A362EB9F79D00E18CDF /* URL+Extensions.swift */,
 				4B3A9A372EB9F79D00E18CDF /* URLRequest+Extensions.swift */,
@@ -704,9 +796,9 @@
 			isa = PBXGroup;
 			children = (
 				4B3A9A3A2EB9F79D00E18CDF /* DependencyManager.swift */,
-				4B3A9A3B2EB9F79D00E18CDF /* LogManager.swift */,
 				4B3A9A3C2EB9F79D00E18CDF /* SocketDelegateManager.swift */,
 				4B3A9A3D2EB9F79D00E18CDF /* WelcomeMessageManager.swift */,
+				4B02797C2ED46A41002065AE /* Logger */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -853,6 +945,7 @@
 			children = (
 				4B3A9A6C2EB9F79D00E18CDF /* OperationError.swift */,
 				4B3A9A6D2EB9F79D00E18CDF /* ServerError.swift */,
+				4B0279812ED46C36002065AE /* APIError.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -927,6 +1020,7 @@
 		4B3A9A8C2EB9F79D00E18CDF /* Received */ = {
 			isa = PBXGroup;
 			children = (
+				4B0279982ED48A12002065AE /* MessageSeenChangedDTO.swift */,
 				4B3A9A842EB9F79D00E18CDF /* MessageCreated */,
 				4B3A9A872EB9F79D00E18CDF /* MessageReadByAgent */,
 				4B3A9A8B2EB9F79D00E18CDF /* MoreMessagesLoaded */,
@@ -972,6 +1066,8 @@
 				4B3A9A972EB9F79D00E18CDF /* MessageDTO.swift */,
 				4B3A9A982EB9F79D00E18CDF /* MessagePayloadDTO.swift */,
 				4B3A9A992EB9F79D00E18CDF /* UserStatisticsDTO.swift */,
+				4B02798E2ED47225002065AE /* MessagePostbackDTO.swift */,
+				4B0279882ED471CF002065AE /* InactivityPopup */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -1158,6 +1254,7 @@
 				4B3A9AC32EB9F79D00E18CDF /* Typing */,
 				4B3A9ACC2EB9F79D00E18CDF /* Visitor */,
 				4B3A9ACD2EB9F79D00E18CDF /* AgentDTO.swift */,
+				4B02797F2ED46B1B002065AE /* AnyValue.swift */,
 				4B3A9ACE2EB9F79D00E18CDF /* BrandDTO.swift */,
 				4B3A9ACF2EB9F79D00E18CDF /* ChannelIdentifierDTO.swift */,
 				4B3A9AD02EB9F79D00E18CDF /* ConnectionContextImpl.swift */,
@@ -1197,6 +1294,7 @@
 				4B3A9AE52EB9F79D00E18CDF /* CustomerIdentityMapper.swift */,
 				4B3A9AE62EB9F79D00E18CDF /* CustomFieldTypeMapper.swift */,
 				4B3A9AE72EB9F79D00E18CDF /* PreChatSurveyCustomFieldMapper.swift */,
+				4B0279902ED4807B002065AE /* InactivityPopupMapper.swift */,
 			);
 			path = Mappers;
 			sourceTree = "<group>";
@@ -1263,6 +1361,8 @@
 				4B3A9B052EB9F79D00E18CDF /* CXoneChatError.swift */,
 				4B3A9B062EB9F79D00E18CDF /* Environment.swift */,
 				4B3A9B072EB9F79D00E18CDF /* FileRestrictions.swift */,
+				4B0279922ED4812B002065AE /* InactivityPopupButton.swift */,
+				4B0279942ED4813A002065AE /* InactivityPopup.swift */,
 				4B3A9B082EB9F79D00E18CDF /* ProactiveActionDataMessageContent.swift */,
 				4B3A9B092EB9F79D00E18CDF /* ProactiveActionDetails.swift */,
 				4B3A9B0A2EB9F79D00E18CDF /* SenderInfo.swift */,
@@ -1348,6 +1448,7 @@
 				4B3A9B2B2EB9F79D00E18CDF /* CustomerService.swift */,
 				4B3A9B2C2EB9F79D00E18CDF /* EventsService.swift */,
 				4B3A9B2D2EB9F79D00E18CDF /* SocketServiceImpl.swift */,
+				4B0279962ED483BC002065AE /* ProactiveActionService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1457,6 +1558,7 @@
 				4B3A99E02EB9F72100E18CDF /* KeychainSwift.swift in Sources */,
 				4B3A99E12EB9F72100E18CDF /* TegKeychainConstants.swift in Sources */,
 				4B3A99F72EB9F78500E18CDF /* ForkLogWriter.swift in Sources */,
+				4B0279692ED4679C002065AE /* APIErrorCode.swift in Sources */,
 				4B3A99F82EB9F78500E18CDF /* LogFilter.swift in Sources */,
 				4B3A99F92EB9F78500E18CDF /* HasClose.swift in Sources */,
 				4B3A99FA2EB9F78500E18CDF /* SystemLogWriter.swift in Sources */,
@@ -1479,17 +1581,24 @@
 				4B3A9B332EB9F79D00E18CDF /* MessageQuickRepliesDTO.swift in Sources */,
 				4B3A9B342EB9F79D00E18CDF /* TokenRefreshedEventDTO.swift in Sources */,
 				4B3A9B352EB9F79D00E18CDF /* MoreMessagesLoadedEventPostback.swift in Sources */,
+				4B0279912ED4807B002065AE /* InactivityPopupMapper.swift in Sources */,
 				4B3A9B362EB9F79D00E18CDF /* JourneyDTO.swift in Sources */,
 				4B3A9B372EB9F79D00E18CDF /* LoadMoreMessagesEventDataDTO.swift in Sources */,
 				4B3A9B382EB9F79D00E18CDF /* CustomFieldDTO.swift in Sources */,
+				4B0279802ED46B1B002065AE /* AnyValue.swift in Sources */,
 				4B3A9B392EB9F79D00E18CDF /* CustomerCustomFieldsDataDTO.swift in Sources */,
 				4B3A9B3A2EB9F79D00E18CDF /* ProactiveActionDetails.swift in Sources */,
 				4B3A9B3B2EB9F79D00E18CDF /* MessageRichLink.swift in Sources */,
 				4B3A9B3C2EB9F79D00E18CDF /* AllowedFileType.swift in Sources */,
 				4B3A9B3D2EB9F79D00E18CDF /* Environment.swift in Sources */,
+				4B0279742ED468E4002065AE /* ProactiveActionTriggerType.swift in Sources */,
+				4B0279752ED468E4002065AE /* ProactiveActionType.swift in Sources */,
 				4B3A9B3E2EB9F79D00E18CDF /* AnalyticsEventDTO.swift in Sources */,
 				4B3A9B3F2EB9F79D00E18CDF /* AgentMapper.swift in Sources */,
 				4B3A9B402EB9F79D00E18CDF /* MoreMessagesLoadedEvent.swift in Sources */,
+				4B02796E2ED46862002065AE /* MessagePluginSubElementDTOType.swift in Sources */,
+				4B02796F2ED46862002065AE /* MessagePluginDTO.swift in Sources */,
+				4B0279702ED46862002065AE /* PluginMessageDTOType.swift in Sources */,
 				4B3A9B412EB9F79D00E18CDF /* CustomerCustomFieldsProvider.swift in Sources */,
 				4B3A9B422EB9F79D00E18CDF /* DesignBackgroundDTO.swift in Sources */,
 				4B3A9B432EB9F79D00E18CDF /* PreChatSurveyCustomFieldMapper.swift in Sources */,
@@ -1519,7 +1628,6 @@
 				4B3A9B5B2EB9F79D00E18CDF /* Agent.swift in Sources */,
 				4B3A9B5C2EB9F79D00E18CDF /* SetContactCustomFieldsEventDataDTO.swift in Sources */,
 				4B3A9B5D2EB9F79D00E18CDF /* ConnectionContextImpl.swift in Sources */,
-				4B3A9B5E2EB9F79D00E18CDF /* LogManager.swift in Sources */,
 				4B3A9B5F2EB9F79D00E18CDF /* VisitorDTO.swift in Sources */,
 				4B3A9B602EB9F79D00E18CDF /* ReceivedThreadDataDTO.swift in Sources */,
 				4B3A9B612EB9F79D00E18CDF /* CallToActionDTO.swift in Sources */,
@@ -1564,9 +1672,9 @@
 				4B3A9B882EB9F79D00E18CDF /* MessageDirectionDTOType.swift in Sources */,
 				4B3A9B892EB9F79D00E18CDF /* SetPositionInQueueEventDTO.swift in Sources */,
 				4B3A9B8A2EB9F79D00E18CDF /* URLSessionProtocol.swift in Sources */,
+				4B0279772ED4697B002065AE /* TimeInterval+Extensions.swift in Sources */,
 				4B3A9B8B2EB9F79D00E18CDF /* DependencyManager.swift in Sources */,
 				4B3A9B8C2EB9F79D00E18CDF /* MessageQuickReplies.swift in Sources */,
-				4B3A9B8D2EB9F79D00E18CDF /* ErrorCode.swift in Sources */,
 				4B3A9B8E2EB9F79D00E18CDF /* OutboundMessage.swift in Sources */,
 				4B3A9B8F2EB9F79D00E18CDF /* EventDTO.swift in Sources */,
 				4B3A9B902EB9F79D00E18CDF /* URLSessionWebSocketTaskProtocol.swift in Sources */,
@@ -1590,10 +1698,12 @@
 				4B3A9BA22EB9F79D00E18CDF /* UTMDTO.swift in Sources */,
 				4B3A9BA32EB9F79D00E18CDF /* MessagePayloadMapper.swift in Sources */,
 				4B3A9BA42EB9F79D00E18CDF /* ContactInboxAssigneeChangedEventDTO.swift in Sources */,
+				4B0279932ED4812B002065AE /* InactivityPopupButton.swift in Sources */,
 				4B3A9BA52EB9F79D00E18CDF /* CustomerService.swift in Sources */,
 				4B3A9BA62EB9F79D00E18CDF /* GenericEventDTO.swift in Sources */,
 				4B3A9BA72EB9F79D00E18CDF /* AnalyticsProvider.swift in Sources */,
 				4B3A9BA82EB9F79D00E18CDF /* UserDefaultsService.swift in Sources */,
+				4B0279952ED4813A002065AE /* InactivityPopup.swift in Sources */,
 				4B3A9BA92EB9F79D00E18CDF /* ConversionEventDTO.swift in Sources */,
 				4B3A9BAA2EB9F79D00E18CDF /* CustomFieldHierarchicalNodeDTO.swift in Sources */,
 				4B3A9BAB2EB9F79D00E18CDF /* CustomerAuthorizedEventPostbackDataDTO.swift in Sources */,
@@ -1604,10 +1714,13 @@
 				4B3A9BB02EB9F79D00E18CDF /* ThreadDTO.swift in Sources */,
 				4B3A9BB12EB9F79D00E18CDF /* UserStatisticsDTO.swift in Sources */,
 				4B3A9BB22EB9F79D00E18CDF /* ChannelIdentifierDTO.swift in Sources */,
+				4B0279972ED483BC002065AE /* ProactiveActionService.swift in Sources */,
 				4B3A9BB32EB9F79D00E18CDF /* ThreadMetadataLoadedEventPostbackDTO.swift in Sources */,
+				4B02798F2ED47225002065AE /* MessagePostbackDTO.swift in Sources */,
 				4B3A9BB42EB9F79D00E18CDF /* CustomerProvider.swift in Sources */,
 				4B3A9BB52EB9F79D00E18CDF /* ContentDescriptorSource.swift in Sources */,
 				4B3A9BB62EB9F79D00E18CDF /* ContactDTO.swift in Sources */,
+				4B0279992ED48A12002065AE /* MessageSeenChangedDTO.swift in Sources */,
 				4B3A9BB72EB9F79D00E18CDF /* MessageRichLinkDTO.swift in Sources */,
 				4B3A9BB82EB9F79D00E18CDF /* ChatProvider.swift in Sources */,
 				4B3A9BB92EB9F79D00E18CDF /* ChatState.swift in Sources */,
@@ -1616,6 +1729,7 @@
 				4B3A9BBC2EB9F79D00E18CDF /* LiveChatRecoveredPostbackDataDTO.swift in Sources */,
 				4B3A9BBD2EB9F79D00E18CDF /* KeychainService.swift in Sources */,
 				4B3A9BBE2EB9F79D00E18CDF /* EnvironmentDetails.swift in Sources */,
+				4B0279822ED46C36002065AE /* APIError.swift in Sources */,
 				4B3A9BBF2EB9F79D00E18CDF /* MessagePayloadDTO.swift in Sources */,
 				4B3A9BC02EB9F79D00E18CDF /* MessageContentDTOType.swift in Sources */,
 				4B3A9BC12EB9F79D00E18CDF /* WebSocket.swift in Sources */,
@@ -1644,6 +1758,7 @@
 				4B3A9BD82EB9F79D00E18CDF /* ElementType.swift in Sources */,
 				4B3A9BD92EB9F79D00E18CDF /* SocketEndpointDTO.swift in Sources */,
 				4B3A9BDA2EB9F79D00E18CDF /* Codable+Extensions.swift in Sources */,
+				4B0279652ED4666D002065AE /* ProactiveActionProvider.swift in Sources */,
 				4B3A9BDB2EB9F79D00E18CDF /* MessageCreatedEventDTO.swift in Sources */,
 				4B3A9BDC2EB9F79D00E18CDF /* CustomerIdentityMapper.swift in Sources */,
 				4B3A9BDD2EB9F79D00E18CDF /* DateProvider.swift in Sources */,
@@ -1654,6 +1769,7 @@
 				4B3A9BE22EB9F79D00E18CDF /* String+Extensions.swift in Sources */,
 				4B3A9BE32EB9F79D00E18CDF /* CustomFieldTextField.swift in Sources */,
 				4B3A9BE42EB9F79D00E18CDF /* ChatThreadProvider.swift in Sources */,
+				4B0279792ED46988002065AE /* Dictionary+Extensions.swift in Sources */,
 				4B3A9BE52EB9F79D00E18CDF /* CustomVariableDTO.swift in Sources */,
 				4B3A9BE62EB9F79D00E18CDF /* CXoneChatError.swift in Sources */,
 				4B3A9BE72EB9F79D00E18CDF /* ProactiveEventDTO.swift in Sources */,
@@ -1672,6 +1788,7 @@
 				4B3A9BF42EB9F79D00E18CDF /* MoreMessagesLoadedEventPostbackData.swift in Sources */,
 				4B3A9BF52EB9F79D00E18CDF /* UUIDProvider.swift in Sources */,
 				4B3A9BF62EB9F79D00E18CDF /* Attachment.swift in Sources */,
+				4B0279672ED46785002065AE /* EventErrorCode.swift in Sources */,
 				4B3A9BF72EB9F79D00E18CDF /* Sequence+Extensions.swift in Sources */,
 				4B3A9BF82EB9F79D00E18CDF /* MessageListPickerDTO.swift in Sources */,
 				4B3A9BF92EB9F79D00E18CDF /* ChannelConfiguration.swift in Sources */,
@@ -1691,6 +1808,13 @@
 				4B3A9C072EB9F79D00E18CDF /* ChatThreadState.swift in Sources */,
 				4B3A9C082EB9F79D00E18CDF /* TokenRefreshedEventPostbackDTO.swift in Sources */,
 				4B3A9C092EB9F79D00E18CDF /* CustomerIdentityDTO.swift in Sources */,
+				4B0279892ED471CF002065AE /* InactivityPopupTextElementDTO.swift in Sources */,
+				4B02798A2ED471CF002065AE /* InactivityPopupButtonElementDTO.swift in Sources */,
+				4B02798B2ED471CF002065AE /* InactivityPopupCountdownElementDTO.swift in Sources */,
+				4B02798C2ED471CF002065AE /* InactivityPopupTitleElementDTO.swift in Sources */,
+				4B02798D2ED471CF002065AE /* InactivityPopupPluginDTO.swift in Sources */,
+				4B02797D2ED46A41002065AE /* ClientLogManager.swift in Sources */,
+				4B02797E2ED46A41002065AE /* LogManager.swift in Sources */,
 				4B3A9C0A2EB9F79D00E18CDF /* ContentDescriptor.swift in Sources */,
 				4B3A9C0B2EB9F79D00E18CDF /* Message.swift in Sources */,
 				4B3A9C0C2EB9F79D00E18CDF /* CustomFieldSelector.swift in Sources */,
@@ -1838,9 +1962,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S4VQPL535Y;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1858,6 +1982,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isos.CXoneChatBridge;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -1874,9 +1999,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S4VQPL535Y;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1894,6 +2019,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isos.CXoneChatBridge;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;

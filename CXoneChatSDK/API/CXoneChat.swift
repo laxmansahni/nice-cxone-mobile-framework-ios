@@ -61,6 +61,8 @@ public class CXoneChat: ChatProvider {
     public let threads: ChatThreadListProvider
     /// The provider for report related properties and methods.
     public let analytics: AnalyticsProvider
+    /// The provider for proactive action related properties and methods.
+    public let proactiveAction: ProactiveActionProvider
 
     // MARK: - Internal properties
     
@@ -88,6 +90,7 @@ public class CXoneChat: ChatProvider {
         self.customerCustomFields = resolver.resolve()
         self.threads = resolver.resolve()
         self.analytics = resolver.resolve()
+        self.proactiveAction = resolver.resolve()
     }
 
     /// Add a ``CXoneChatDelegate``

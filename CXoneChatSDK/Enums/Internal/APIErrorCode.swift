@@ -15,23 +15,8 @@
 
 import Foundation
 
-// MARK: - Implementation
+enum APIErrorCode: String {
 
-/// The log manager of the CXoneChat SDK.
-enum LogManager: StaticLogger {
-
-    // MARK: - StaticLogger implementation
-
-    nonisolated(unsafe) static var instance: LogWriter? = PrintLogWriter()
-    static let category: String? = "CORE"
-
-    // MARK: - Methods
-
-    static func error(
-        _ error: Error,
-        file: StaticString = #file,
-        line: UInt = #line
-    ) {
-        self.error(error.localizedDescription, file: file, line: line)
-    }
+    /// The SDK version being used is no longer supported.
+    case sdkVersionNotSupported = "SdkVersionNotSupported"
 }

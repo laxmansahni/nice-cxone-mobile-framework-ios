@@ -164,7 +164,7 @@ public extension LogWriter {
     }
 
     /// Log a message at level ``LogLevel/fatal``.
-    ///
+    /// 
     /// - Parameters:
     ///   - message: message to log
     ///   - category: category with which to tag the message
